@@ -1,0 +1,307 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<!-- saved from url=(0065)http://www.testing4success.com/Training/CTFL_Course/CTFL_4_3.html -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><HTML 
+xmlns="http://www.w3.org/1999/xhtml"><HEAD>
+<META content="text/html; charset=utf-8" http-equiv="Content-Type">
+<TITLE>www.Testing4Success.com - Software Testing Training</TITLE>
+<META name="description" content="Software Testing Training Solutions from testing4Success.com">
+<META name="keywords" content="iseb,istqb,software testing training">
+<META name="robots" content="index,follow">
+<SCRIPT language="JavaScript" src="CTFL_4_3_files/testing4success.js">
+</SCRIPT>
+<TITLE>(Type a title for your page here)</TITLE>
+<STYLE type="text/css">
+div {
+
+left: 350px;
+top: 20px;
+width: 180px;
+padding: 10px;
+color: Black;
+display: none;
+}
+
+
+body {
+-moz-user-select: none;}
+
+
+.style13 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: medium;
+	color: #000000;
+	background-image: url('puzzlesmall11.jpg');
+}
+.style5 {
+	font-size: small;
+}
+.style1 {
+	font-family: Arial;
+	font-size: small;
+	font-weight:normal
+}
+.style12 {
+	text-align: center;
+	white-space: nowrap;
+}
+.style15 {
+	text-align: left;
+	white-space: nowrap;
+}
+.style17 {
+	text-align: left;
+}
+.style18 {
+	color: #739C21;
+}
+.style19 {
+	font-family: Arial;
+	font-size: small;
+}
+.style21 {
+	font-family: Arial;
+	font-size: small;
+	text-align: left;
+	color: #CCCCCC;
+	margin-left: 28px;
+	font-weight: normal;
+}
+.style22 {
+	font-family: Arial;
+	font-size: small;
+	text-align: left;
+	color: #739C21;
+	margin-left: 20px;
+	margin-top: 0;
+}
+.style23 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: small;
+	color: #739C21;
+}
+.style24 {
+	margin-left: 6px;
+}
+.style25 {
+	text-align: center;
+	white-space: nowrap;
+	font-weight: bold;
+	font-family: Arial;
+	font-size: small;
+	color: #739C21;
+}
+.style26 {
+	text-align: center;
+	font-family: Arial;
+	font-size: x-small;
+}
+.style27 {
+	font-family: "Times New Roman";
+}
+.style28 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: small;
+	color: #739C21;
+	margin-bottom: 20px;
+}
+.style29 {
+	margin-top: 12px;
+}
+.style30 {
+	border-width: 0px;
+}
+.style34 {
+	font-weight: bold;
+	border-width: 0px;
+}
+.style36 {
+	white-space: normal;
+}
+.style39 {
+	font-family: Arial;
+	font-weight: bold;
+	font-size: small;
+	margin-bottom: 20px;
+}
+.style40 {
+	font-family: Arial;
+}
+.style41 {
+	text-align: justify;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+</STYLE>
+
+<META name="GENERATOR" content="MSHTML 9.00.8112.16506"></HEAD>
+<BODY oncontextmenu="return false;">
+<SCRIPT>document.onselectstart= function() {return false;}; </SCRIPT>
+<B>
+<TABLE style="width: 800px;" align="center">
+  <TBODY>
+  <TR>
+    <TD style="height: 103px;" class="style13" colSpan="2">
+      <P class="style22"><A href="http://www.testing4success.com/"><IMG class="style30" 
+      alt="" src="CTFL_4_3_files/bannernew.png" width="235" height="38"></A></P>
+      <P class="style21">ISEB / ISTQB Foundation in Software Testing Training 
+      Course</P></TD></TR>
+  <TR>
+    <TD style="width: 120px; height: 30px;" vAlign="top">		&nbsp;</TD>
+    <TD style="height: 30px;" class="style23" vAlign="bottom">		&nbsp;</TD></TR>
+  <TR>
+    <TD style="width: 120px;" vAlign="top"><B><IMG alt="" src="CTFL_4_3_files/Fotolia_4811872_XS.jpg" 
+      width="90" height="120"></B></TD>
+    <TD><SPAN class="style5">
+      <P class="style28"><STRONG>Lesson 4-3</STRONG></P></SPAN>
+      <P class="style28"></P>
+      <P class="style39"><FONT class="style5" size="2"><B>		Equivalence 
+      Partitioning</B></FONT></P><FONT class="style5" size="2">
+      <P class="style1" align="JUSTIFY">As an example, lets imagine as a 
+      		tester you were asked to manually test a software program that operated 
+      		with patient records. The software contains the following field:<BR><BR>
+      		Patient Number: 0 – 99999<BR><BR>		As a tester, you want to make sure 
+      you test this field thoroughly, so do 		you test that the field accepts 
+      every value between '1' and a '99999'?<BR><BR>		No, this would be 
+      considered to be exhaustive testing and really is 		unnecessary.<BR><BR>
+      		In order to test the field effectively, the first piece of information 
+      		we need to obtain is the equivalent partitions. In equivalence 
+      		partitioning, inputs to the software or system are separated into groups 
+      		that are expected to exhibit similar behavior, which means that they 
+      		should be processed by the software in the same way. So lets say we 
+      		found out from the design documentation that the field values would be 
+      		processed in the following way:<BR><BR>		Values 0 - 10 = "Value 
+      rejected, and a 'Reserved Values' message would 		be displayed"<BR>
+      		Values 11 - 99000 = "Value accepted, and a 'Success' message would be 
+      		displayed"<BR>		Values 99001 - 99999 = Value rejected, and a 'Failure' 
+      message would be 		displayed" <BR><BR>		So these value ranges form our 
+      equivalence partitions. as you can see, 		it is perfectively acceptable to 
+      have valid partitions and invalid 		partitions. Actually, in our example 
+      there are two hidden invalid 		partitions. These are the negative values 
+      that fall below the value '0' 		and also the values that are higher than 
+      '99999'. Even though no 		expected behavior has been defined, we must make 
+      sure that the software 		does not behave improperly when handling these 
+      values, for example 		crashing. <BR><BR>		Now we have the partitions, all 
+      we need to do is select a value that 		falls within each partition. For 
+      example, we could choose the values 		'-66', '2', '12', '99998' and 
+      '11000' this would provide a test that 		exercises all of the code as it 
+      would generate all available messages 		and also cover the hidden invalid 
+      partitions. It does not matter which 		specific values you choose, just as 
+      long as the values fall within each 		equivalent partition. <BR><BR>		Test 
+      cases should be designed to cover every valid and invalid partition 
+      		present. Equivalence partitioning is perfectly applicable at all levels 
+      		of testing throughout the software development 
+  lifecycle.</P></FONT></TD></TR>
+  <TR>
+    <TD>&nbsp;</TD>
+    <TD style="height: 40px;">&nbsp;</TD></TR></TBODY></TABLE></B>
+<TABLE style="width: 800px;" border="0" cellSpacing="0" cellPadding="0" align="center">
+  <FORM onsubmit="return validate(this)" method="post" name="form1" action="action_page.php">
+  <TBODY>
+  <TR bgColor="#ffffff">
+    <TD style="width: 120px;" class="style36" rowSpan="2" align="center"><IMG 
+      style="float: left;" alt="" src="CTFL_4_3_files/Fotolia_10056459_XS.jpg" 
+      width="104" height="104"><BR><BR><BR><BR><BR><BR></TD>
+    <TD style="height: 20px;" class="style17" vAlign="bottom" 
+      colSpan="3"><FONT size="2" face="verdana"><SPAN class="style18"><SPAN 
+      class="style19"><SPAN class="style5"><FONT class="style5" 
+      size="2"><B><STRONG>Testing every value in a field is considered to be 
+      what?</STRONG></B></FONT></SPAN></SPAN></SPAN></FONT></TD></TR>
+  <TR bgColor="#ffffff">
+    <TD style="width: 349px; height: 120px;" class="style17" vAlign="top">
+      <P class="style24"><FONT size="2" face="verdana"><INPUT class="style19" 
+      onclick="validate(this)" name="q" value="1" type="radio" ;=""><SPAN class="style19"><FONT 
+      class="style5" size="2">Specification-based 	testing</FONT><BR></SPAN>
+      <INPUT class="style19" onclick="validate(this)" name="q" value="2" type="radio" 
+      ;=""><SPAN class="style19"><FONT class="style5" size="2">Boundary 	Value 
+      Analysis</FONT><BR></SPAN><INPUT class="style19" onclick="validate(this)" 
+      name="q" value="3" type="radio" ;=""><SPAN class="style19"><FONT class="style5" 
+      size="2">Exhaustive 	testing</FONT><BR></SPAN><INPUT class="style19" 
+      onclick="validate(this)" name="q" value="4" type="radio" ;=""><SPAN class="style40"><FONT 
+      class="style5" size="2">Equivalence 
+      	Partitioning</FONT></SPAN><BR></FONT></P><FONT size="2" face="verdana">
+      </FONT></TD>
+    <TD style="width: 260px;" class="style15" vAlign="top">
+      <DIV id="sub1"><IMG src="CTFL_4_3_files/correct.jpg"></DIV>
+      <DIV id="sub2"><IMG src="CTFL_4_3_files/wrong.jpg"></DIV>&nbsp;</TD>
+    <TD align="center">&nbsp;</TD></TR></TBODY></FORM></TABLE>
+<TABLE style="width: 800px;" align="center">
+  <TBODY>
+  <TR>
+    <TD style="width: 120px; height: 40px;"></TD>
+    <TD style="height: 40px;"></TD></TR>
+  <TR><B>
+    <TD style="width: 120px; height: 140px;" vAlign="top" rowSpan="6"><IMG 
+      alt="" src="CTFL_4_3_files/Fotolia_4599026_XS.jpg" width="104" height="104"></TD>
+    <TD style="height: 35px;" vAlign="top">
+      <P class="style29"><FONT size="2" face="verdana"><SPAN 
+      class="style18"><STRONG><SPAN class="style19"><SPAN class="style5">		Make 
+      sure you understand the following keywords associated with this 
+      		lesson:</SPAN></SPAN></STRONG></SPAN><SPAN class="style5"><B><SPAN 
+      class="style1">&nbsp;</SPAN></B></SPAN></FONT></P><FONT size="2" face="verdana"></FONT></TD>
+    </B></TR>
+  <TR>
+    <TD class="style19" vAlign="top"><FONT class="style40"><B>
+      <P class="style41">Equivalence partition: </P></B>
+      <P class="style41">A portion of an input or 		output domain for which the 
+      behavior of a component or system is assumed 		to be the same, based on 
+      the specification.</P></FONT></TD></TR>
+  <TR>
+    <TD style="height: 21px;" class="style19" vAlign="top"><FONT class="style40"><B>
+      <P class="style41">Equivalence partitioning: </P></B>
+      <P class="style41">A black box test design 		technique in which test cases 
+      are designed to execute representatives 		from equivalence partitions. In 
+      principle test cases are designed to 		cover each partition at least 
+      once.</P></FONT></TD></TR>
+  <TR>
+    <TD style="height: 20px;" class="style19" vAlign="top"></TD></TR>
+  <TR>
+    <TD class="style19" vAlign="top">		&nbsp;</TD></TR>
+  <TR>
+    <TD class="style19" vAlign="top">		&nbsp;</TD></TR></TBODY></TABLE>
+<TABLE style="width: 300px;" align="center">
+  <TBODY>
+  <TR><B>
+    <TD style="height: 40px;" colSpan="4">&nbsp;</TD></B></TR>
+  <TR>
+    <TD style="width: 136px;" class="style12"><A href="http://www.testing4success.com/Training/CTFL_Course/menu.html"><IMG 
+      class="style34" alt="" src="CTFL_4_3_files/Menu_Page.jpg" width="111" 
+      height="115"></A></TD>
+    <TD style="width: 136px;" class="style12"><A href="http://www.testing4success.com/Training/CTFL_Course/tutor.html"><IMG 
+      class="style30" alt="" src="CTFL_4_3_files/Contact_Tutor.jpg" width="109" 
+      height="106"></A></TD>
+    <TD style="width: 137px;" class="style12"><A href="http://www.testing4success.com/Training/CTFL_Course/CTFL_4_2.html"><IMG 
+      class="style30" alt="" src="CTFL_4_3_files/Arrow_Left.jpg" width="104" 
+      height="116"></A></TD>
+    <TD style="width: 137px;" class="style12"><A href="http://www.testing4success.com/Training/CTFL_Course/CTFL_4_4.html"><IMG 
+      class="style30" alt="" src="CTFL_4_3_files/Arrow_Right.jpg" width="104" 
+      height="116"></A></TD></TR>
+  <TR>
+    <TD style="width: 136px;" class="style25">		Menu</TD>
+    <TD style="width: 136px;" class="style25">		Ask Tutor</TD>
+    <TD style="width: 137px;" class="style25">		Previous</TD>
+    <TD style="width: 137px;" class="style25">		Next</TD></TR></TBODY></TABLE>
+<SCRIPT type="text/javascript">
+function validate(form) {
+// Checking if at least one period button is selected. Or not.
+if (document.form1.q[2].checked ){
+
+setVisibility('sub1', 'inline');
+setVisibility('sub2','none');
+}else{
+setVisibility('sub2', 'inline');
+setVisibility('sub1','none');
+}
+}
+
+function setVisibility(id, visibility) {
+document.getElementById(id).style.display = visibility;
+}
+</SCRIPT>
+
+<P>&nbsp;</P>
+<P class="style26"><STRONG>Copyright <SPAN class="style27">© 2011 </SPAN>
+www.testing4success.com</STRONG></P>
+<P class="style26">&nbsp;</P></BODY></HTML>
